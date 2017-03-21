@@ -1,0 +1,273 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title>The Power of Trust</title><meta content="yes" name="apple-mobile-web-app-capable" /><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" /><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport" /><link href="reveal.js/css/reveal.css" rel="stylesheet" /><link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" /><style>/* Stylesheet for CodeRay to match GitHub theme | MIT License | http://foundation.zurb.com */
+/*pre.CodeRay {background-color:#f7f7f8;}*/
+.CodeRay .line-numbers{border-right:1px solid #d8d8d8;padding:0 0.5em 0 .25em}
+.CodeRay span.line-numbers{display:inline-block;margin-right:.5em;color:rgba(0,0,0,.3)}
+.CodeRay .line-numbers strong{color:rgba(0,0,0,.4)}
+table.CodeRay{border-collapse:separate;border-spacing:0;margin-bottom:0;border:0;background:none}
+table.CodeRay td{vertical-align: top;line-height:1.45}
+table.CodeRay td.line-numbers{text-align:right}
+table.CodeRay td.line-numbers>pre{padding:0;color:rgba(0,0,0,.3)}
+table.CodeRay td.code{padding:0 0 0 .5em}
+table.CodeRay td.code>pre{padding:0}
+.CodeRay .debug{color:#fff !important;background:#000080 !important}
+.CodeRay .annotation{color:#007}
+.CodeRay .attribute-name{color:#000080}
+.CodeRay .attribute-value{color:#700}
+.CodeRay .binary{color:#509}
+.CodeRay .comment{color:#998;font-style:italic}
+.CodeRay .char{color:#04d}
+.CodeRay .char .content{color:#04d}
+.CodeRay .char .delimiter{color:#039}
+.CodeRay .class{color:#458;font-weight:bold}
+.CodeRay .complex{color:#a08}
+.CodeRay .constant,.CodeRay .predefined-constant{color:#008080}
+.CodeRay .color{color:#099}
+.CodeRay .class-variable{color:#369}
+.CodeRay .decorator{color:#b0b}
+.CodeRay .definition{color:#099}
+.CodeRay .delimiter{color:#000}
+.CodeRay .doc{color:#970}
+.CodeRay .doctype{color:#34b}
+.CodeRay .doc-string{color:#d42}
+.CodeRay .escape{color:#666}
+.CodeRay .entity{color:#800}
+.CodeRay .error{color:#808}
+.CodeRay .exception{color:inherit}
+.CodeRay .filename{color:#099}
+.CodeRay .function{color:#900;font-weight:bold}
+.CodeRay .global-variable{color:#008080}
+.CodeRay .hex{color:#058}
+.CodeRay .integer,.CodeRay .float{color:#099}
+.CodeRay .include{color:#555}
+.CodeRay .inline{color:#000}
+.CodeRay .inline .inline{background:#ccc}
+.CodeRay .inline .inline .inline{background:#bbb}
+.CodeRay .inline .inline-delimiter{color:#d14}
+.CodeRay .inline-delimiter{color:#d14}
+.CodeRay .important{color:#555;font-weight:bold}
+.CodeRay .interpreted{color:#b2b}
+.CodeRay .instance-variable{color:#008080}
+.CodeRay .label{color:#970}
+.CodeRay .local-variable{color:#963}
+.CodeRay .octal{color:#40e}
+.CodeRay .predefined{color:#369}
+.CodeRay .preprocessor{color:#579}
+.CodeRay .pseudo-class{color:#555}
+.CodeRay .directive{font-weight:bold}
+.CodeRay .type{font-weight:bold}
+.CodeRay .predefined-type{color:inherit}
+.CodeRay .reserved,.CodeRay .keyword {color:#000;font-weight:bold}
+.CodeRay .key{color:#808}
+.CodeRay .key .delimiter{color:#606}
+.CodeRay .key .char{color:#80f}
+.CodeRay .value{color:#088}
+.CodeRay .regexp .delimiter{color:#808}
+.CodeRay .regexp .content{color:#808}
+.CodeRay .regexp .modifier{color:#808}
+.CodeRay .regexp .char{color:#d14}
+.CodeRay .regexp .function{color:#404;font-weight:bold}
+.CodeRay .string{color:#d20}
+.CodeRay .string .string .string{background:#ffd0d0}
+.CodeRay .string .content{color:#d14}
+.CodeRay .string .char{color:#d14}
+.CodeRay .string .delimiter{color:#d14}
+.CodeRay .shell{color:#d14}
+.CodeRay .shell .delimiter{color:#d14}
+.CodeRay .symbol{color:#990073}
+.CodeRay .symbol .content{color:#a60}
+.CodeRay .symbol .delimiter{color:#630}
+.CodeRay .tag{color:#008080}
+.CodeRay .tag-special{color:#d70}
+.CodeRay .variable{color:#036}
+.CodeRay .insert{background:#afa}
+.CodeRay .delete{background:#faa}
+.CodeRay .change{color:#aaf;background:#007}
+.CodeRay .head{color:#f8f;background:#505}
+.CodeRay .insert .insert{color:#080}
+.CodeRay .delete .delete{color:#800}
+.CodeRay .change .change{color:#66f}
+.CodeRay .head .head{color:#f4f}</style><link href="reveal.js/lib/css/zenburn.css" rel="stylesheet" /><script>document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title"><h1>The Power of Trust</h1></section><section id="_the_power_of_trust"><h2>The Power of Trust</h2><div class="paragraph"><p>Knowing what is True across time and space</p></div>
+<div class="imageblock" style=""><img src="./images/usedcarsalesman.jpg" alt="usedcarsalesman" /></div></section>
+<section id="_distributed_transactions_are_complex"><h2>Distributed transactions are complex</h2></section>
+<section id="__minor_details"><h2>&#8220;Minor&#8221; Details</h2><div class="paragraph"><p>After all, you need to worry about things like:</p></div>
+<div class="ulist"><ul><li><p>network latency</p></li><li><p>network reliability</p></li><li><p>responsiveness to users</p></li><li><p>data corruption on multiple systems and across the wire</p></li><li><p>state management across multiple systems (that may not be able to communicate)</p></li><li><p>etc. etc.</p></li></ul></div></section>
+<section id="_different_needs_different"><h2>Different Needs Different</h2><div class="paragraph"><p>Obligatory Caveat:
+Every situation needs to be looked at in its own context</p></div></section>
+<section id="_back_to_the_fundamentals"><h2>Back to the Fundamentals</h2><div class="paragraph"><p>There&#8217;s only a small handful of ways that have proven to be most effective</p></div></section>
+<section id="_focus_on_simplicity"><h2>Focus On Simplicity</h2><div class="imageblock" style=""><img src="./images/complexity.jpg" alt="complexity" /></div></section>
+<section id="_what_s_in_a_name"><h2>What&#8217;s In A Name?</h2><div class="paragraph"><p>If we have something, we want to be able to identify it&#8230;&#8203;</p></div></section>
+<section id="_common_computer_data_identifiers"><h2>Common (computer data) Identifiers</h2><div class="ulist"><ul><li><p>memory address</p></li><li><p>file name</p></li><li><p>class name</p></li><li><p>revision numbers</p></li><li><p>etc.</p></li></ul></div></section>
+<section id="_can_you_step_into_the_same_river_twice"><h2>Can You Step Into the Same River Twice?</h2><div class="paragraph"><p>None of those tell you the <strong><em>state</em></strong> of the thing&#8230;&#8203;</p></div></section>
+<section id="_implied_information"><h2>Implied Information</h2><div class="paragraph"><p>There&#8217;s an <em>implied</em> extra piece needed: &#8220;time&#8221; (and generally also &#8220;place&#8221;)</p></div></section>
+<section id="_identify_something_by_its_content"><h2>Identify Something By Its Content</h2><div class="paragraph"><p>Same things should be identified as same</p></div>
+<div class="paragraph"><p>Different things should be identified as different</p></div></section>
+<section id="_hash"><h2>Hash</h2><div class="paragraph"><p><a href="https://en.wikipedia.org/wiki/Hash_function">Hash function</a> — any function that can be used to map data of arbitrary size to data of fixed size</p></div>
+<div class="imageblock" style=""><img src="./images/hash_functions.jpg" alt="hash functions" /></div></section>
+<section id="_changes"><h2>Changes</h2><div class="paragraph"><p>What that means is that <strong><em>any change at all</em></strong> will change the value of the hash</p></div></section>
+<section id="_ddd"><h2>DDD</h2><div class="paragraph"><p>By adding this &#8220;level of indirection&#8221; we effectively get to treat
+<a href="http://deviq.com/entity/">Entities</a> as <a href="http://deviq.com/value-object/">Values</a></p></div>
+<div class="paragraph"><p>We have identified a frozen Entity state</p></div>
+<div class="paragraph"><p>Change management to an Entity is done via things like the Command pattern or event processing</p></div>
+<div class="paragraph"><p>To see an excellent example of this basic idea enforced by a language, see
+<a href="https://clojure.org/about/state">Clojure&#8217;s Approach to Identity and State</a></p></div></section>
+<section id="_example"><h2>Example</h2><div class="paragraph"><p>Let&#8217;s take an example of distributed transactions virtually all of you are familiar with: Git</p></div>
+<div class="paragraph"><p>A much, <strong><em>much</em></strong> deeper look can be seen at <a href="https://jdigger.github.io/git-fundimentals-preso/#21">my Git Fundamentals talk</a></p></div></section>
+<section id="_source_code_transactions"><h2>Source Code Transactions</h2><div class="paragraph"><p>A &#8220;transaction&#8221; in a source revision control system is a commit</p></div></section>
+<section id="_distributing_source_code_transactions"><h2>Distributing Source Code Transactions</h2><div class="paragraph"><p>Most RCSs like SVN/Perforce/etc. have a centralized transaction broker</p></div></section>
+<section id="_centralized_rcs_commit_structure"><h2>Centralized RCS Commit Structure</h2><div class="paragraph"><p>Pseudo for "Revision 234"</p></div>
+<div class="listingblock"><div class="content"><pre class="CodeRay"><code>parent 233
+author Git Fundamentals &lt;gitfund@git.com&gt; 1409885160 -0600
+committer Git Fundamentals &lt;gitfund@git.com&gt; 1409885160 -0600
+# patches for files that changed</code></pre></div></div></section>
+<section id="_shape_of_a_git_commit"><h2>Shape of a Git Commit</h2><div class="listingblock"><div class="content"><pre class="CodeRay"><code class="bash language-bash">$ echo &quot;More cow-bell\!&quot; &gt; file1.txt
+
+$ git commit -am &quot;Added more cow-bell.&quot;
+[master 7581387] Added more cow-bell.
+1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git cat-file -p 7581387
+tree 366612747e1b0730cdbb680bb48ba6132b321848
+parent 3b1b4ff08b048aceeb4ccb38739101ec94b8fd01
+author Git Fundamentals &lt;gitfund@git.com&gt; 1409885160 -0600
+committer Git Fundamentals &lt;gitfund@git.com&gt; 1409885160 -0600
+
+$ git cat-file -p 3666127
+100644 blob faff7b9f491fea306a748f2e17e536918fb6a601  file1.txt
+100644 blob 63ffb2bff74e9161a82b82999718f441df6a68f1  file2.txt
+040000 tree cb63181eaa27bf4caedf9d9d212840206a77c11d  morefiles</code></pre></div></div></section>
+<section id="_why_did_git_use_hashes"><h2>Why Did Git Use Hashes?</h2><div class="paragraph"><p>If you&#8217;re not a particularly a hard-core data-structures nerd, it probably
+struck you as a little odd that hashes were being taken used to refer to
+EVERYTHING instead of more "natural" things like filenames, timestamps,
+incrementing revision numbers, etc.</p></div></section>
+<section id="_hash_advantages"><h2>Hash Advantages</h2><div class="paragraph"><p>Using hashes (especially a "cryptographically secure" hash) gives us some wonderful properties:</p></div></section>
+<section id="_tied_to_content"><h2>Tied to Content</h2><div class="paragraph"><p>The identifier (the hash) is intimately tied to the CONTENT of what it&#8217;s referencing</p></div>
+<div class="paragraph"><p>For example, compare it to a file name; a hash is consistent across file systems, renames, emailing/FTPing it around, etc</p></div>
+<div class="paragraph"><p>The same content&#8201;&#8212;&#8201;be it one bit or 5 million petabytes&#8201;&#8212;&#8201;always hashes to the same value (using the same hashing algorithm) regardless of what OS, location in time/space, etc</p></div></section>
+<section id="_change_detection"><h2>Change Detection</h2><div class="paragraph"><p>If ANYTHING changes, the hash changes</p></div>
+<div class="paragraph"><p>This guarantees change detection is trivial (the corner-stone of change/state management), since the very way you reference something reflects if a change happened</p></div></section>
+<section id="_location_independence"><h2>Location Independence</h2><div class="paragraph"><p>The same content ALWAYS gives the same hash, regardless of <strong><em>when or where</em></strong> it&#8217;s computed</p></div>
+<div class="paragraph"><p>Therefore there&#8217;s no need to make sure to &#8220;check in&#8221; with a central broker
+to make sure that everyone is calling the same thing the same thing, and
+different things differently</p></div></section>
+<section id="_hash_trees"><h2>Hash Trees</h2><div class="imageblock" style=""><img src="https://jdigger.github.io/git-fundimentals-preso/images/dag01.png" alt="dag01" /></div></section>
+<section id="_outside_of_memory_space"><h2>Outside of Memory-Space</h2><div class="paragraph"><p>Notice that this gives solves everything we talked about at the beginning</p></div></section>
+<section id="_those_minor_details"><h2>Those &#8220;Minor&#8221; Details</h2><div class="ulist"><ul><li><p>network latency</p></li><li><p>network reliability</p></li><li><p>responsiveness to users</p></li><li><p>data corruption on multiple systems and across the wire</p></li><li><p>state management across multiple systems (that may not be able to communicate)</p></li><li><p>etc. etc.</p></li></ul></div></section>
+<section id="_network_latency_reliability"><h2>Network Latency/Reliability</h2><div class="paragraph"><p>If the network network is unreliable, it has virtually no impact of anything. (Notice the relative lack of git commands that touch the network at all)</p></div>
+<div class="paragraph"><p>It certainly has no impact on the &#8220;correctness&#8221; of a commit</p></div></section>
+<section id="_responsiveness"><h2>Responsiveness</h2><div class="paragraph"><p>Because the network isn&#8217;t needed to ensure &#8220;correctness&#8221;*, dealing with transactions has
+no performance implications</p></div>
+<div class="ulist"><ul><li><p>for some value of the term &#8220;correct&#8221;</p></li></ul></div></section>
+<section id="_data_corruption"><h2>Data Corruption</h2><div class="paragraph"><p>The ID acts as its own checksum, so data corruption (accidental or otherwise) is instantly detectable</p></div>
+<div class="paragraph"><p>Doing a full audit is trivial: Just re-generate the hashes</p></div></section>
+<section id="_state_management"><h2>State Management</h2><div class="paragraph"><p>You know with absolute certainty that the underlying data in the ledger (i.e., transaction history) hasn&#8217;t mutated</p></div></section>
+<section id="__eventually_consistent"><h2>&#8220;Eventually Consistent&#8221;</h2><div class="paragraph"><p>That makes it even <strong><em>possible</em></strong>, since otherwise there would be no way to ensure correctness</p></div></section>
+<section id="_reconciling_changes"><h2>Reconciling Changes</h2><div class="paragraph"><p>Different systems have different ways of tackling this problem based on their domain</p></div></section>
+<section id="_what_s_with_all_these_accounting_terms"><h2>What&#8217;s With All These Accounting Terms?</h2><div class="paragraph"><p>&#8220;Reconcile&#8221;?</p></div>
+<div class="paragraph"><p>&#8220;Ledger&#8221;?</p></div>
+<div class="paragraph"><p>&#8220;Audit&#8221;?</p></div>
+<div class="paragraph"><p>&#8220;Broker&#8221;?</p></div>
+<div class="paragraph"><p>&#8220;Transaction&#8221;?</p></div>
+<div class="imageblock" style=""><img src="./images/accounting.gif" alt="accounting" /></div></section>
+<section id="_a_long_history"><h2>A Long History</h2><div class="paragraph"><p>We (civilization) have had processes in place to track distributed
+transactions for a very long time</p></div></section>
+<section id="_centralized_transaction_brokers"><h2>Centralized Transaction Brokers</h2><div class="paragraph"><p>The primary reason why the older RCSs have centralized transaction brokers is
+that you couldn&#8217;t &#8220;trust&#8221; that everyone was keeping accurate records</p></div>
+<div class="paragraph"><p>(It&#8217;s also a bit more convenient in some ways)</p></div></section>
+<section id="_what_if_all_transactions_are_open_and_verified"><h2>What If All Transactions Are Open and Verified?</h2><div class="paragraph"><p>That&#8217;s what Git does</p></div></section>
+<section id="_what_about_other_processes_where_trust_is_needed"><h2>What about other processes where trust is needed?</h2><div class="paragraph"><p>Like, say, transferring money&#8230;&#8203;</p></div></section>
+<section id="_sample_money_transfer"><h2>Sample Money Transfer</h2><div class="paragraph"><p>Transaction 2387df82cba96234</p></div>
+<div class="listingblock"><div class="content"><pre class="CodeRay"><code>parent 31340de02bca878
+from   bc2234234234624
+to     24acbd8236348db
+amount 67.93</code></pre></div></div></section>
+<section id="_property_transfer"><h2>Property Transfer</h2><div class="paragraph"><p>Transaction 2387df82cba96234</p></div>
+<div class="listingblock"><div class="content"><pre class="CodeRay"><code>parent  31340de02bca878
+from    bc2234234234624
+to      24acbd8236348db2
+latlong 38.8977, 77.0365</code></pre></div></div>
+<div class="imageblock" style=""><img src="./images/white-house.jpg" alt="white house" height="200" /></div></section>
+<section id="_some_implications"><h2>Some Implications</h2><div class="paragraph"><p>Now what is the value provided by centralized institutions that exist
+to provide &#8220;trusted&#8221; information? (e.g., banks, land titles, patents,
+music licensing, marriage licensing, election boards, &#8230;&#8203;)</p></div>
+<div class="paragraph"><p>You no longer need to trust the honor of people at those institutions, but
+rather public ledgers trusted by Math</p></div>
+<div class="imageblock" style=""><img src="./images/do-all-the-maths.jpg" alt="do all the maths" /></div></section>
+<section id="_agreements"><h2>Agreements</h2><div class="paragraph"><p>Any &#8220;agreement&#8221; is a contract, though generally informal</p></div>
+<div class="paragraph"><p>What if you bring the cost of formalizing <a href="https://www.ethereum.org/">to near-zero</a>?</p></div></section></div></div><script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: true,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'simple',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'none',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>
